@@ -47,6 +47,17 @@ public class Main {
 //        int B = Integer.valueOf(arr[1]);
 //        int C = Integer.valueOf(arr[2]);
 //        System.out.printf("%04d.%02d.%02d", A, B, C);  1019
+        /*
+        \\. 사용 이유
+        split의 인자로 들어가는 String 토큰이 regex 정규식이기 때문이다.
+        정규식에서 .은 무작위의 한 글자를 의미한다. 그러면 모든 문자가 토큰이 되기 때문에 배열에 남는 게 없게 되는 것이다.
+        그렇기 때문에 이스케이프 문자를 앞에 붙여 줘야 한다. 그런데 String 안에 이스케이프 문자인 \를 써 주려면 \\라고 써 줘야 한다.
+        그래서 \\.이라고 쓰면 정규식 쪽에서는 \.라고 인식을 하고 실제 .을 찾게 되는 것이다.
+        */
 
+//        String Resident_Registration_Number = sc.next();
+//        Resident_Registration_Number = Resident_Registration_Number.replace("-", "");
+//        System.out.println(Resident_Registration_Number); 1020
+//        replace를 이용하여 "-" 문자를 "" 로
     }
 }
