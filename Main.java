@@ -59,5 +59,11 @@ public class Main {
 //        Resident_Registration_Number = Resident_Registration_Number.replace("-", "");
 //        System.out.println(Resident_Registration_Number); 1020
 //        replace를 이용하여 "-" 문자를 "" 로
+
+//        String data = sc.next(); 공백을 기준으로 입력을 받는다. 즉, 띄어쓰기(=\\s)을 기준으로 입력을 받는다.
+//        System.out.println(data); 1021
+
+//        String data = sc.nextLine();  // 한 라인을 기준으로 입력을 받는다. 즉, 개행문자(=줄넘김)(=\n)을 기준으로 입력을 받는다.
+//        System.out.println(data); 1022
     }
 }
