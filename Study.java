@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Locale;
 
 public class Study {
@@ -60,5 +62,56 @@ public class Study {
         myArray3[0] = "Hello";
         myArray3[1] = " ";
         myArray3[2] = "World!";
+        System.out.println(myArray3[0]);
+
+        //자료형
+        System.out.println("====리스트====");
+        ArrayList l1 = new ArrayList();
+
+        //add
+        l1.add(1);
+        l1.add("hello");
+        l1.add(2);
+        l1.add(3);
+        l1.add(4);
+        l1.add("world!");
+        System.out.println("l1 = " + l1);
+
+        l1.add(0,1);  //앞의 0은 index
+        System.out.println("l1 = " + l1);
+
+        //get l1의 지정된 index 값을 불러옴
+        System.out.println(l1.get(0));
+        System.out.println(l1.get(3));
+
+        //size l1의 원소 개수를 구함
+        System.out.println(l1.size());
+
+        //remove 데이터 삭제
+        System.out.println(l1.remove(0)); // 0번째 인덱스 값 삭제
+        System.out.println(l1);
+
+        System.out.println(l1.remove(Integer.valueOf(2))); //index으로 지정하지 않고 값으로 지정하여 삭제, 출력 값은 true 반환
+        System.out.println(l1);
+
+        //clear 리스트에 있는 모든 값을 삭제
+        l1.clear();
+        System.out.println("l1 = " + l1); //결과 값 l1 = []
+
+        //sort 내림차순, 오름차순 정렬
+        ArrayList l2 = new ArrayList();
+        l2.add(5);
+        l2.add(3);
+        l2.add(4);
+        System.out.println("l2 = " + l2);
+        l2.sort(Comparator.naturalOrder()); // 오름차순 정렬
+        System.out.println("l2 = " + l2);
+        l2.sort(Comparator.reverseOrder()); // 내림차순 정렬
+        System.out.println("l2 = " + l2);
+
+        //contains 리스트에 데이터가 들어있는지 확인
+        System.out.println(l2.contains(1)); // 1이 있는지 확인 false
+        System.out.println(l2.contains(3)); // true
+
     }
 }
