@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.Locale;
 
 public class Study {
@@ -112,6 +113,15 @@ public class Study {
         //contains 리스트에 데이터가 들어있는지 확인
         System.out.println(l2.contains(1)); // 1이 있는지 확인 false
         System.out.println(l2.contains(3)); // true
+
+        //Maps 데이터 쌍을 이루는
+        HashMap map = new HashMap();
+
+        //put  map에 데이터를 넣을 때 사용
+        map.put("jang",9000);
+        map.put("apple",10000);
+        map.put("mango",12000);
+        System.out.println("map = " + map);
 
     }
 }
