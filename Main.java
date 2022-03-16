@@ -43,7 +43,7 @@ public class Main {
 
 //        String a = sc.next();
 //        String[] arr = a.split("\\.");
-//        int A = Integer.valueOf(arr[0]);
+//        int A = Integer.valueOf(arr[0]);// Integer.vlueOf() 문자열의 값을 정수형으로 변환한 다음 Integer 객체로 만들어서 반환합니다. 즉 new Integer(Integer.parseInt(s)) 값이 리턴됩니다.
 //        int B = Integer.valueOf(arr[1]);
 //        int C = Integer.valueOf(arr[2]);
 //        System.out.printf("%04d.%02d.%02d", A, B, C);  1019
@@ -65,5 +65,18 @@ public class Main {
 
 //        String data = sc.nextLine();  // 한 라인을 기준으로 입력을 받는다. 즉, 개행문자(=줄넘김)(=\n)을 기준으로 입력을 받는다.
 //        System.out.println(data); 1022
+
+//        String a = sc.next();
+//        String[] arr = a.split("\\.");
+//        int intValue = Integer.valueOf(arr[0]); //문자열의 값을 정수형으로 변환한 다음 Integer 객체로 만들어서 반환합니다. 즉 new Integer(Integer.parseInt(s)) 값이 리턴됩니다.
+//        int floatValue = Integer.valueOf(arr[1]);
+//        System.out.println(intValue);
+//        System.out.println(floatValue); 1023
+
+//        String a = sc.next();
+//        int len = a.length();
+//        for(int i =0;i<len;i++) {
+//            System.out.printf("\'%c\'\n", a.charAt(i)); 1024 // 단어 1개 입력받아 나누어 출력
+//        }
     }
 }
