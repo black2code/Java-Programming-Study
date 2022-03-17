@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -77,6 +78,17 @@ public class Main {
 //        int len = a.length();
 //        for(int i =0;i<len;i++) {
 //            System.out.printf("\'%c\'\n", a.charAt(i)); 1024 // 단어 1개 입력받아 나누어 출력
+//        }
+
+        //1025 정수 1개 입력받아 나누어 출력하기
+//        String a = sc.next();
+//        char [] arr = a.toCharArray();
+//        for(int i=0; i<arr.length; i++) {
+//            System.out.print("[" + arr[i]);
+//            for(int j=arr.length-1; j>i; j--) {
+//                System.out.print("0");
+//            }
+//            System.out.println("]");
 //        }
     }
 }
