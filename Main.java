@@ -90,5 +90,14 @@ public class Main {
 //            }
 //            System.out.println("]");
 //        }
+
+        //1025 다른 풀이, Math.pow(밑,지수) 제곱 구하기
+        //Character.getNumericValue  char to int형으로 변환
+        //toCharArray() 메소드는 문자열을 char형 배열로 바꿔준다.
+//        String a = sc.next();
+//        char[] arr = a.toCharArray();
+//        for(int i=0; i<arr.length; i++) {
+//            System.out.println("["+Character.getNumericValue(arr[i]) * (int)Math.pow(10,arr.length-1-i)+"]");
+//        }
     }
 }
