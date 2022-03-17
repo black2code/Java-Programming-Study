@@ -99,5 +99,20 @@ public class Main {
 //        for(int i=0; i<arr.length; i++) {
 //            System.out.println("["+Character.getNumericValue(arr[i]) * (int)Math.pow(10,arr.length-1-i)+"]");
 //        }
+
+        //1026 입력되는 시:분:초 에서 분만 출력
+//        String a = sc.next();
+//        String[] arr = a.split(":");
+//
+//        if(Integer.valueOf(arr[1])==00){
+//            System.out.println(0);
+//        }else {
+//            System.out.println(Integer.valueOf(arr[1]));
+//        }
+
+        //1027 년월일 입력 받아 형식 바꿔 출력하기 2022.03.18 -> 18-03-2022
+//        String a = sc.next();
+//        String[] arr = a.split("\\.");
+//        System.out.println(arr[2]+"-"+arr[1]+"-"+arr[0]);
     }
 }
