@@ -121,7 +121,45 @@ public class Study {
         map.put("jang",9000);
         map.put("apple",10000);
         map.put("mango",12000);
-        System.out.println("map = " + map);
+        System.out.println("map = " + map); // 순서대로 출력되지 않음
+        // 출력 결과 : map = {jang=9000, apple=10000, mango=12000}
 
+        //get  데이터를 불러오는
+        System.out.println(map.get("mandarine")); // 출력 결과 : null
+        System.out.println(map.get("jang")); // 출력 결과 : 9000
+
+        //size
+        System.out.println(map.size());
+
+        //remove
+        System.out.println(map.remove("jang")); // key값 입력
+        System.out.println(map.remove("mandarine")); // 출력 결과 : null
+        System.out.println(map);
+
+        //containsKey  해당 키값이 있는지 확인
+        System.out.println(map.containsKey("apple")); //true
+        System.out.println(map.containsKey("jang")); //false
+
+        //Generics 자료형을 제한하는 기능
+        System.out.println("====Generics=====");
+        ArrayList l3 = new ArrayList();
+        l3.add(3);
+        l3.add("Hello");
+        System.out.println("l3 = " + l3);
+
+        ArrayList<String> l4 = new ArrayList<String>();
+        //l4.add(1); String 타입이 아니라 안됨
+        l4.add("World");
+        System.out.println("l4 = " + l4);
+
+        HashMap map1 = new HashMap();
+        map1.put(123,"id");
+        map1.put("apple",10000);
+        System.out.println("map1 = " + map1);
+
+        HashMap<String, Integer> map2 = new HashMap<>(); // <> 안에 생략하면 String, Integer로 인식
+        //map2.put(123,"id"); // 문자열 , 숫자로 넣어야함
+        map2.put("apple",10000);
+        System.out.println("map2 = " + map2);
     }
 }
