@@ -116,5 +116,37 @@ public class Main {
 //        String a = sc.next();
 //        String[] arr = a.split("\\.");
 //        System.out.println(arr[2]+"-"+arr[1]+"-"+arr[0]);
+
+        //1028 정수 1개 입력받아 그대로 출력하기2
+        // (단, 입력되는 정수의 범위는 0 ~ 4,294,967,295 이다.)
+
+//        long n = sc.nextLong();
+//        System.out.println(n);
+
+        //1029 실수 1개를 입력받아 그대로 출력해보자.
+        //(단, 입력되는 실수의 범위는 +- 1.7*10-308 ~ +- 1.7*10308 이다.)
+
+//        double n = sc.nextDouble();
+//        System.out.printf("%.11f", n);
+
+        //1030 정수 1개를 입력받아 그대로 출력해보자.
+        //단, 입력되는 정수의 범위는
+        //-9,223,372,036,854,775,808 ~ +9,223,372,036,854,775,807 이다.
+
+//        long n = sc.nextLong();
+//        System.out.println(n);
+
+        //1031 10진수를 입력받아 8진수(octal)로 출력해보자.
+//        int n = sc.nextInt();
+//        System.out.printf("%o",n);
+
+        //1032 10진수를 입력받아 16진수(hexadecimal)로 출력해보자.
+//        int n = sc.nextInt();
+//        System.out.printf("%x",n);
+
+        //1033  10진수를 입력받아 16진수(hexadecimal)로 출력해보자.
+        //대문자로
+//        int n = sc.nextInt();
+//        System.out.printf("%X",n);
     }
 }
