@@ -148,5 +148,26 @@ public class Main {
         //대문자로
 //        int n = sc.nextInt();
 //        System.out.printf("%X",n);
+
+        //1034 8진 정수 1개 입력받아 10진수로 출력하기
+        //parseInt(String s, int radix)
+//        String n = sc.next();
+//        int decimal = Integer.parseInt(n,8); // String n 을 변환할 진수(radix)로 읽어서 int로 반환
+//        System.out.print(decimal);
+
+        //1035 6진 정수 1개 입력받아 8진수로 출력하기
+//        String number = sc.next();
+//        int hexaToDecimal = Integer.parseInt(number,16);
+//        System.out.printf("%o",hexaToDecimal);
+
+        //1036 영문자 1개를 입력받아 아스키 코드표의 10진수 값으로 출력
+//        String code = sc.next();
+//        int num = (int)code.charAt(0);
+//        System.out.println(num);
+
+        //1037  10진 정수 1개를 입력받아 아스키 문자로 출력
+//        int num = sc.nextInt();
+//        char ch = (char)num;
+//        System.out.println(ch);
     }
 }
