@@ -27,8 +27,8 @@ class Cat extends Animal1 {
     String desc;
     Cat() {
 //        this.desc = "고양이 입니다.";
-//        super.desc = "고양이 입니다.";
-        super("고양이 입니다.");
+//        super.desc = "고양이 입니다."; super를 사용하여, 부모 즉 Animal1 클래스의 desc 초기화
+        super("고양이 입니다."); // 부모 클래스의 생성자 호출 Animal1(desc) 초기화
     }
 }
 
