@@ -63,5 +63,38 @@ public class Study_Polymorphism {
 //        ss1 = pp2; 자식이 부모쪽 x
         ss1 = (Student1)pp3; //다운캐스팅 , Student1이 부모타입으로 업캐스팅 되었던걸 다시 자신의 클래스로 타입 변환 해주는 것
 
+        CollegeStudent cc1;
+        CollegeStudent cc2 = new CollegeStudent();
+//        ss1 = (Student1) cc2;  같은 부모를 상속 받아도, 자식 클래스끼리 형변환 안돰
+//        cc1 = (CollegeStudent)ss2; 마찬가지
+
+
+//      3. instanceof
+        System.out.println("== instanceof =="); // 해당 객체에 인스턴스가 맞는지 체크
+        Person1 pe1 = new Person1();
+        Student1 st1 = new Student1();
+        Person1 pe2 = new Student1();
+        Person1 pe3 = new CollegeStudent();
+
+        System.out.println(pe1 instanceof Person1);
+        System.out.println(pe1 instanceof Student1);
+
+        System.out.println(st1 instanceof Student1);
+        System.out.println(st1 instanceof Person1); //Person 부모 클래스 상속받아 만든 객체 true
+
+        System.out.println(pe2 instanceof Person1);
+        System.out.println(pe2 instanceof Student1);
+
+        System.out.println(pe3 instanceof Person1);
+        System.out.println(pe3 instanceof CollegeStudent);
+
+        // 이런식으로 사용 가능
+        if (pe1 instanceof Student1){
+            Student1 stu1 = (Student1) pe1;
+        }
+
+        if (st1 instanceof Person1){
+            Person1 per1 = (Person1) st1;
+        }
     }
 }
