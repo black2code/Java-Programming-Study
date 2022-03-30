@@ -169,5 +169,12 @@ public class Main {
 //        int num = sc.nextInt();
 //        char ch = (char)num;
 //        System.out.println(ch);
+
+        //1038 정수 2개를 입력받아 합을 출력하는 프로그램을 작성
+        // ex) 입력: 123 -123  출력: 0
+//        long num1 = sc.nextInt();
+//        long num2 = sc.nextInt();
+//        long result = num1+num2;
+//        System.out.println(result);
     }
 }
