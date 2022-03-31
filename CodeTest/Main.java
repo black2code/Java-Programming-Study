@@ -176,5 +176,9 @@ public class Main {
 //        long num2 = sc.nextInt();
 //        long result = num1+num2;
 //        System.out.println(result);
+
+        //1039 정수 1개 입력받아 부호 바꿔 출력하기
+//        int num1 = sc.nextInt();
+//        System.out.println(-num1);
     }
 }
