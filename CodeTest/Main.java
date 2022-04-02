@@ -180,5 +180,9 @@ public class Main {
         //1039 정수 1개 입력받아 부호 바꿔 출력하기
 //        int num1 = sc.nextInt();
 //        System.out.println(-num1);
+
+        //1041 문자 1개 입력받아 다음 문자 출력
+//        char a = sc.nextLine().charAt(0);
+//        System.out.printf("%c", a+1);
     }
 }
