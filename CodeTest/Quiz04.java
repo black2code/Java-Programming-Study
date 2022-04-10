@@ -38,10 +38,10 @@ public class Quiz04 {
         }
         if(sex.equals("m")){
             man = "3";
-            System.out.println(year + month + day + "-" + man + resultnumber);
+            System.out.println(year.substring(2,4) + month + day + "-" + man + resultnumber);
         }else{
             woman = "4";
-            System.out.println(year + month + day + "-" + woman + resultnumber);
+            System.out.println(year.substring(2,4) + month + day + "-" + woman + resultnumber);
         }
     }
 }
