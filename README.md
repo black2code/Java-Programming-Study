@@ -1,4 +1,4 @@
-# Java-Programming-Study.Study
+# Java-Programming-Study
 :closed_book: To study JAVA Programming
 
 - 예제 문제를 풀며 개념 정리
