@@ -8,8 +8,6 @@ package CodeTest;
 
  */
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class Quiz02 {
@@ -19,7 +17,7 @@ public class Quiz02 {
         Scanner sc = new Scanner(System.in);
         int price = sc.nextInt();
         int save = price / 10;
-        if (save >= 300) {
+        if (save > 300) {
             save = 300;
         }else{
             save = (save/100)*100;
