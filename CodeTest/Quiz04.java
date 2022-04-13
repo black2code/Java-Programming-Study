@@ -31,17 +31,17 @@ public class Quiz04 {
         System.out.print("성별을 입력해 주세요(m/f):");
         String sex = sc.next();
 
-        for (int i = 0; i < 6; i++) {
-            numbers = random.nextInt(9);
-            sran = Integer.toString(numbers);
-            resultnumber += sran;
-        }
-        if(sex.equals("m")){
+
+        numbers = random.nextInt(999999);
+        sran = Integer.toString(numbers);
+        resultnumber += sran;
+
+        if (sex.equals("m")) {
             man = "3";
-            System.out.println(year.substring(2,4) + month + day + "-" + man + resultnumber);
-        }else{
+            System.out.println(year.substring(2, 4) + month + day + "-" + man + resultnumber);
+        } else {
             woman = "4";
-            System.out.println(year.substring(2,4) + month + day + "-" + woman + resultnumber);
+            System.out.println(year.substring(2, 4) + month + day + "-" + woman + resultnumber);
         }
     }
 }
