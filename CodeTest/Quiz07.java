@@ -47,6 +47,7 @@ public class Quiz07 {
         }
         System.out.print("\t");
         LinkedList list2 = new LinkedList(jackpotset);
+        Collections.sort(list2);
         Stream stream2 = list2.stream();
         stream2.forEach(n -> System.out.printf("%02d ", n));
         System.out.println();
