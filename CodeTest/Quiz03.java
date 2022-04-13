@@ -29,23 +29,16 @@ public class Quiz03 {
 
         int admission_Fee = 10000;
 
-        while (true) {
             if (age < 3) {
                 admission_Fee = 0;
-                break;
 
             } else if (age < 13 || time >= 17) {
                 admission_Fee = 4000;
-                break;
 
             } else if (national_Merit == 'y' || card == 'y') {
                 admission_Fee = 8000;
-                break;
-
-            }else{
-                break;
             }
-        }
+
         System.out.printf("입장료 : " + admission_Fee);
     }
 }
