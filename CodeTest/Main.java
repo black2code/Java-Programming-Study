@@ -184,5 +184,12 @@ public class Main {
         //1041 문자 1개 입력받아 다음 문자 출력
 //        char a = sc.nextLine().charAt(0);
 //        System.out.printf("%c", a+1);
+
+        //1042 정수 2개(a, b) 를 입력받아 a를 b로 나눈 몫을 출력해보자.
+        //단, -2147483648 <= a <= b <= +2147483647, b는 0이 아니다.
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//
+//        System.out.printf("%d", a/b);
     }
 }
