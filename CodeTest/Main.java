@@ -191,5 +191,16 @@ public class Main {
 //        int b = sc.nextInt();
 //
 //        System.out.printf("%d", a/b);
+
+        //1043 정수 2개 나눈 나머지
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//
+//        System.out.printf("%d", a%b);
+
+        //1044 정수를 1개 입력받아 1만큼 더해 출력해보자.
+        //단, -2147483648 ~ +2147483647 의 범위로 입력된다.
+//        long a = sc.nextInt();
+//        System.out.printf("%d",++a);
     }
 }
