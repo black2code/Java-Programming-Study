@@ -4,7 +4,6 @@ package CodeTest;
     - 입력 받은 년도와 월을 통한 달력 생성
     - 입력값은 년도, 월을 입력
     - 날짜는 LocalDate클래스를 이용(Calendar와 Date클래스 이용 가능)
-
  */
 
 import java.time.LocalDate;
@@ -32,7 +31,7 @@ public class Quiz05 {
         int totalCount = 0;
 
         for (int i = 0; i < monthday; i++) {
-            System.out.print("\t");
+//            System.out.print("\t");
             totalCount++;
         }
         for (int j = 1; j <= monthend; j++) {
