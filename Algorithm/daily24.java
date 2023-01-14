@@ -1,17 +1,15 @@
 package Algorithm;
 
-
 import java.util.Scanner;
 
 public class daily24 {
 
     public static String solution(int num, String s) {
         String answer = "";
-        String binary1 = s.replaceAll("#", "1");
-        String binary2 = binary1.replaceAll("\\*","0");
+        String binary = s.replace("#", "1").replace("*","0");
 
         for (int i = 0; i < num; i++) {
-            answer += Character.toString((char)Integer.parseInt(binary2.substring(i*7,(i+1)*7),2));
+            answer += Character.toString((char)Integer.parseInt(binary.substring(i*7,(i+1)*7),2));
         }
         return answer;
     }
