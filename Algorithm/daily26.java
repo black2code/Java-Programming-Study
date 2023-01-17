@@ -8,12 +8,9 @@ public class daily26 {
         int answer = 1;
         int max = arr[0];
 
-        for (int i = 0; i < num-1; i++) {
-            int left = i;
-            int right = i+1;
-
-            if (arr[left] < arr[right] && max < arr[right]) {
-                max = arr[right];
+        for (int i = 0; i < num; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
                 answer++;
             }
         }
